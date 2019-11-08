@@ -37,3 +37,6 @@ docker logs {docker_container_id}
 2. 增加自动添加一条Record记录
 3. 增加容器内通过forever启动daemon，并将日志输出到控制台
 4. 增加说明如何在群晖NAS系统中启动服务的说明
+
+# 如何联系我
+semonwang@163.com
