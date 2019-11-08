@@ -1,0 +1,20 @@
+{
+  "name": "dnspod-ddns",
+  "version": "1.0.0",
+  "description": "Application which can modify DNSPod DNS record automatically",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "semonwang@163.com",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.4",
+    "linq": "^3.2.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  }
+}
