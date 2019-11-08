@@ -1,6 +1,6 @@
 # DNSPOD-DDNS-NODEJS
-一个Nodejs应用，更新腾讯云解析中的对应公网IP地址。
-Application which can modify DNSPod DNS record automatically
+一个Nodejs应用，自动检测公网地址并更新腾讯云解析中的DNS记录。
+Application which can detect WAN IP changes and udpate DNSPod DNS record automatically
 
 # 参数说明
 * secretId:xxx 
@@ -44,4 +44,4 @@ semonwang@163.com
 # 请我喝咖啡
 if you find this app helpful, you can choose to buy me a coffee.
 
-![wechat](./wechat_re.jpg)
+![wechat](./wechat_mini.png)
