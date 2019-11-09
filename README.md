@@ -44,4 +44,4 @@ semonwang@163.com
 # 请我喝咖啡
 if you find this app helpful, you can choose to buy me a coffee.  
 
-![wechat](./wechat_mini.png)  
+![wechat_rec](https://github.com/semonw/dnspod-ddns-nodejs/raw/master/wechat_mini.png)  
