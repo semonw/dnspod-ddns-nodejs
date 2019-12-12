@@ -9,10 +9,19 @@
   "author": "semonwang@163.com",
   "license": "MIT",
   "dependencies": {
+    "argparse": "^1.0.10",
+    "async": "^3.1.0",
     "bluebird": "^3.5.4",
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
     "linq": "^3.2.0",
+    "lodash": "^4.17.15",
+    "minimist": "^1.2.0",
+    "moment": "^2.24.0",
+    "optimist": "^0.6.1",
     "request": "^2.88.0",
-    "request-promise": "^4.2.5"
+    "request-promise": "^4.2.5",
+    "yars": "^1.2.0"
   },
   "devDependencies": {
     "mocha": "^6.1.4"

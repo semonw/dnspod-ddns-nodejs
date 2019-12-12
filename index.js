@@ -96,7 +96,8 @@ function modifyRecord(config) {
                 return DNSPodApi.modifyRecord(login_token, domain, record.id, sub_domain, 'A', value);
             }
         } else {
-            return Promise.reject('Doesnot found matching record.\r\n');
+            console.log('Creating a new A type record with value:' + value + '\r\n');
+            return DNSPodApi.createRecord(login_token, domain, sub_domain, 'A', value);
         }
     });
 }

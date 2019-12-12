@@ -134,6 +134,29 @@ function DNSPodAPI() {
     })
   };
 
+
+  this.createRecord = function (login_token, domain, sub_domain, record_type, value) {
+    var formData = {
+      login_token: login_token,
+      format: 'json',
+      lang: 'en',
+      domain: domain,
+      sub_domain: sub_domain,
+      record_type: record_type,
+      record_line: '默认',
+      value: value,
+      mx: '1',
+      ttl: '600'
+    };
+
+    request.post({ url: 'https://dnsapi.cn/Record.Create', formData: formData }).then(res => {
+      return res;
+    }).catch(err => {
+      console.log(err);
+      throw err;
+    })
+  };
+
 }
 
 module.exports = new DNSPodAPI();
